@@ -42,7 +42,7 @@ def main_menu_handler(message):
 
         add_information = "Для интересующихся, дополнительную информацию можно найти здесь:\n\
 🤖 [Курс написания ботов](https://mastergroosha.github.io/telegram-tutorial/docs/lesson_01/)\n\
-👾 [Ссылка на код данного бота](https://mastergroosha.github.io/telegram-tutorial/docs/lesson_01/)"
+👾 [Ссылка на код данного бота](https://github.com/s1mplesanya/meetup_python_tg_bots)"
         bot.send_message(user_id, add_information, reply_markup=main_menu, parse_mode="Markdown")
 
 
